@@ -4,9 +4,10 @@ x l d g w  q b o u ;
 s r t m y  p n a i e
 z j k c v  f h . , =
 ```
-Pronounced: cert (as in certify) my (as in my snake, the snake which is mine)
+Pronounced: cert (as in certify) my
 
 For the entire board and the multiple variations available (including numrow flip and symbols for qwerty) refer to the xkb configuration file
+If I forget to update it here there may be a more up to date version in my repo called conf
 
 The symbol alterations are what I believe will be helpful in programming (specifically the languages I use, you might want something different)
 
