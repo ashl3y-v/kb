@@ -7,11 +7,7 @@ z j k c v  f h , . /
 Pronounced: cert (as in certify) my
 
 For the entire board and the multiple variations available (including numrow flip and symbols for qwerty) refer to the xkb configuration file
-If I forget to update it here there may be a more up to date version in my repo called conf
-
-The symbol alterations are what I believe will be helpful in programming (specifically the languages I use, you might want something different)
-
-I have both qwerty, qwerty with srtmy symbols, and srtmy, the first as a backup and also because I need the numrow to switch, the second to help me learn the symbols even if I'm not ready to use srtmy yet,
+If I forget to update it here there may be a more up to date version in my repo called conf. The symbol alterations are what I believe will be helpful in programming (specifically the languages I use, you might want something different). I have both qwerty, qwerty with srtmy symbols, and srtmy, the first as a backup and also because I need the numrow to switch, the second to help me learn the symbols even if I'm not ready to use srtmy yet. Swapping the positions of , and . yields meaningful improvements in oxeylyzer but I'm skeptical of the real world value, and for me it's more work than it's worth (you can see these results if you scroll down).
 
 Oxeylyzer:
 ```
@@ -108,4 +104,36 @@ Total Alternates: 35.573%
 Redirects: 5.723%
 BadRedirects: 0.569%
 Total Redirects: 6.293%
+```
+
+Oxeylyzer improvement gained by swapping , and . (I'm skeptical that this can actually matter that much, especially when programming)
+```
+srtmy                          srtmy2
+x l d g w  q b o u ;           x l d g w  q b o u ;
+s r t m y  p n a i e           s r t m y  p n a i e
+z j k c v  f h , . /           z j k c v  f h . , /
+Sfb:                0.773%      Sfb:                0.762%
+Dsfb:               5.888%      Dsfb:               5.705%
+Finger Speed:       18.537      Finger Speed:       18.193
+Scissors:           0.324%      Scissors:           0.315%
+Lsbs:               1.679%      Lsbs:               1.688%
+Pinky Ring Bigrams: 1.163%      Pinky Ring Bigrams: 1.142%
+
+Inrolls:            23.07%      Inrolls:            23.07%
+Outrolls:           23.78%      Outrolls:           23.79%
+Total Rolls:        46.85%      Total Rolls:        46.86%
+Onehands:           1.776%      Onehands:           1.778%
+
+Alternates:         29.63%      Alternates:         29.65%
+Alternates Sfs:     5.78%       Alternates Sfs:     5.77%
+Total Alternates:   35.41%      Total Alternates:   35.41%
+
+Redirects:          3.076%      Redirects:          3.080%
+Redirects Sfs:      2.541%      Redirects Sfs:      2.536%
+Bad Redirects:      0.404%      Bad Redirects:      0.406%
+Bad Redirects Sfs:  0.161%      Bad Redirects Sfs:  0.163%
+Total Redirects:    6.183%      Total Redirects:    6.186%
+
+Bad Sfbs:           0.668%      Bad Sfbs:           0.663%
+Sft:                0.010%      Sft:                0.010%
 ```
