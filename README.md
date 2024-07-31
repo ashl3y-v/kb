@@ -2,7 +2,7 @@
 ```
 x l d g w  q b o u ;
 s r t m y  p n a i e
-z j k c v  f h . , =
+z j k c v  f h , . /
 ```
 Pronounced: cert (as in certify) my
 
@@ -15,34 +15,34 @@ I have both qwerty, qwerty with srtmy symbols, and srtmy, the first as a backup 
 
 Oxeylyzer:
 ```
-srtmy                          graphite
-x l d g w  q b o u ;           b l d w z  ' f o u j
-s r t m y  p n a i e           n r t s g  y h a e i
-z j k c v  f h . , /           q x m c v  k p . - ,
-Sfb:                0.762%      Sfb:                0.996%
-Dsfb:               5.705%      Dsfb:               6.260%
-Finger Speed:       18.193      Finger Speed:       21.990
-Scissors:           0.315%      Scissors:           0.306%
-Lsbs:               1.688%      Lsbs:               1.191%
-Pinky Ring Bigrams: 1.142%      Pinky Ring Bigrams: 1.620%
+graphite                       srtmy
+b l d w z  ' f o u j           x l d g w  q b o u ;
+n r t s g  y h a e i           s r t m y  p n a i e
+q x m c v  k p . - ,           z j k c v  f h , . /
+Sfb:                0.996%      Sfb:                0.773%
+Dsfb:               6.260%      Dsfb:               5.888%
+Finger Speed:       21.990      Finger Speed:       18.537
+Scissors:           0.306%      Scissors:           0.324%
+Lsbs:               1.191%      Lsbs:               1.679%
+Pinky Ring Bigrams: 1.620%      Pinky Ring Bigrams: 1.163%
 
-Inrolls:            23.07%      Inrolls:            21.54%
-Outrolls:           23.79%      Outrolls:           22.93%
-Total Rolls:        46.86%      Total Rolls:        44.47%
-Onehands:           1.778%      Onehands:           1.716%
+Inrolls:            21.54%      Inrolls:            23.07%
+Outrolls:           22.93%      Outrolls:           23.78%
+Total Rolls:        44.47%      Total Rolls:        46.85%
+Onehands:           1.716%      Onehands:           1.776%
 
-Alternates:         29.65%      Alternates:         34.34%
-Alternates Sfs:     5.77%       Alternates Sfs:     7.81%
-Total Alternates:   35.41%      Total Alternates:   42.15%
+Alternates:         34.34%      Alternates:         29.63%
+Alternates Sfs:     7.81%       Alternates Sfs:     5.78%
+Total Alternates:   42.15%      Total Alternates:   35.41%
 
-Redirects:          3.080%      Redirects:          1.789%
-Redirects Sfs:      2.536%      Redirects Sfs:      0.796%
-Bad Redirects:      0.406%      Bad Redirects:      0.264%
-Bad Redirects Sfs:  0.163%      Bad Redirects Sfs:  0.133%
-Total Redirects:    6.186%      Total Redirects:    2.983%
+Redirects:          1.789%      Redirects:          3.076%
+Redirects Sfs:      0.796%      Redirects Sfs:      2.541%
+Bad Redirects:      0.264%      Bad Redirects:      0.404%
+Bad Redirects Sfs:  0.133%      Bad Redirects Sfs:  0.161%
+Total Redirects:    2.983%      Total Redirects:    6.183%
 
-Bad Sfbs:           0.663%      Bad Sfbs:           0.507%
-Sft:                0.010%      Sft:                0.025%
+Bad Sfbs:           0.507%      Bad Sfbs:           0.668%
+Sft:                0.025%      Sft:                0.010%
 ```
 
 Oxeylyzer same punctuation:
@@ -81,8 +81,8 @@ Oxey Layout Playground:
 ```
 Finger usage:
 finger 0: 	6.69% 	finger 9: 	11.89%
-finger 1: 	10.31% 	finger 8: 	10.97%
-finger 2: 	13.32% 	finger 7: 	16.62%
+finger 1: 	10.31% 	finger 8: 	11.05%
+finger 2: 	13.32% 	finger 7: 	16.53%
 finger 3: 	12.30% 	finger 6: 	17.16%
 
 Left hand: 42.62% 	Right hand: 56.63%
@@ -91,21 +91,21 @@ Home keys usage: 57.14%
 
 Sfb% per finger:
 finger 0: 	0.002% 	finger 9: 	0.033%
-finger 1: 	0.090% 	finger 8: 	0.129%
-finger 2: 	0.014% 	finger 7: 	0.128%
+finger 1: 	0.090% 	finger 8: 	0.138%
+finger 2: 	0.014% 	finger 7: 	0.130%
 finger 3: 	0.224% 	finger 6: 	0.200%
 
-Sfb:  0.821%
-Dsfb: 5.855%
-Lsb:  2.993%
-Inrolls: 23.122%
-Outrolls: 23.754%
-Total Rolls: 46.876%
-Onehands: 1.860%
-Alternates: 29.772%
-Alternates (sfs): 5.799%
-Total Alternates: 35.571%
-Redirects: 5.720%
-BadRedirects: 0.574%
-Total Redirects: 6.294%
+Sfb:  0.832%
+Dsfb: 6.051%
+Lsb:  2.984%
+Inrolls: 23.128%
+Outrolls: 23.743%
+Total Rolls: 46.871%
+Onehands: 1.859%
+Alternates: 29.762%
+Alternates (sfs): 5.811%
+Total Alternates: 35.573%
+Redirects: 5.723%
+BadRedirects: 0.569%
+Total Redirects: 6.293%
 ```
