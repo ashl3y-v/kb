@@ -1,53 +1,4 @@
-partial alphanumeric_keys
-xkb_symbols "numflip" {
-    name[Group1]= "srtmy numflip (US)";
-
-    key <AE01>	{[ exclam, 1 ]};
-    key <AE02>	{[ at, 2 ]};
-    key <AE03>	{[ numbersign, 3 ]};
-    key <AE04>	{[ dollar, 4 ]};
-    key <AE05>	{[ percent, 5 ]};
-    key <AE06>	{[ asciicircum, 6 ]};
-    key <AE07>	{[ ampersand, 7 ]};
-    key <AE08>	{[ asterisk, 8 ]};
-    key <AE09>	{[ parenleft, 9 ]};
-    key <AE10>	{[ parenright, 0 ]};
-};
-
-partial alphanumeric_keys
-xkb_symbols "syms" {
-    name[Group1]= "srtmy symbols (US)";
-
-    key <AE11>	{[ braceleft, bracketleft ]};
-    key <AE12>	{[ braceright, bracketright ]};
-
-    key <AD11>	{[ equal, plus ]};
-    key <AD12>	{[ underscore, minus ]};
-    key <BKSL>	{[ bar, backslash ]};
-
-    key <AB08>	{[   period,	 less		]};
-    key <AB09>	{[  comma,	 greater	]};
-};
-
-partial alphanumeric_keys
-xkb_symbols "basic_syms" {
-    include "us(basic)"
-    include "srtmy(syms)"
-
-    name[Group1]= "basic with srtmy symbols (US)";
-};
-
-partial alphanumeric_keys
-xkb_symbols "basic_numflip_syms" {
-    include "us(basic)"
-    include "srtmy(syms)"
-    include "srtmy(numflip)"
-
-    name[Group1]= "basic with srtmy numflip and symbols (US)";
-};
-
-// srtmy letters and move ;
-partial alphanumeric_keys
+default partial alphanumeric_keys
 xkb_symbols "srtmy" {
     include "us(basic)"
 
@@ -60,7 +11,7 @@ xkb_symbols "srtmy" {
     key <AD05>	{[ w, W ]};
     key <AD06>	{[ q, Q ]};
     key <AD07>	{[ b, B ]};
-    key <AD08>	{[ o, O ]};
+    key <AD08>	{[ a, A ]};
     key <AD09>	{[ u, U ]};
     key <AD10>	{[ semicolon, colon ]};
 
@@ -69,9 +20,9 @@ xkb_symbols "srtmy" {
     key <AC03>	{[ t, T ]};
     key <AC04>	{[ m, M ]};
     key <AC05>	{[ y, Y ]};
-    key <AC06>	{[ p, P ]};
+    key <AC06>	{[ f, F ]};
     key <AC07>	{[ n, N ]};
-    key <AC08>	{[ a, A ]};
+    key <AC08>	{[ o, O ]};
     key <AC09>	{[ i, I ]};
     key <AC10>	{[ e, E ]};
 
@@ -80,33 +31,6 @@ xkb_symbols "srtmy" {
     key <AB03>	{[ k, K ]};
     key <AB04>	{[ c, C ]};
     key <AB05>	{[ v, V ]};
-    key <AB06>	{[ f, F ]};
+    key <AB06>	{[ p, P ]};
     key <AB07>	{[ h, H ]};
-};
-
-// srtmy letters and flip numrow
-partial alphanumeric_keys
-xkb_symbols "srtmy_numflip" {
-    include "srtmy(srtmy)"
-    include "srtmy(numflip)"
-
-    name[Group1]= "srtmy layout and numflip (US)";
-};
-
-// srtmy letters and symbol changes
-default partial alphanumeric_keys
-xkb_symbols "srtmy_syms" {
-    include "srtmy(srtmy)"
-    include "srtmy(syms)"
-
-    name[Group1]= "srtmy layout and symbols (US)";
-};
-
-partial alphanumeric_keys
-xkb_symbols "srtmy_numflip_syms" {
-    include "srtmy(srtmy)"
-    include "srtmy(numflip)"
-    include "srtmy(syms)"
-
-    name[Group1]= "srtmy layout with numflip and symbols (US)";
 };
