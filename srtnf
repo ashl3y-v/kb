@@ -1,0 +1,36 @@
+default partial alphanumeric_keys
+xkb_symbols "srtnf" {
+    include "us(basic)"
+
+    name[Group1]= "srtnf layout (US)";
+
+    key <AD01>	{[ x, X ]};
+    key <AD02>	{[ l, L ]};
+    key <AD03>	{[ d, D ]};
+    key <AD04>	{[ h, H ]};
+    key <AD05>	{[ p, P ]};
+    key <AD06>	{[ v, V ]};
+    key <AD07>	{[ c, C ]};
+    key <AD08>	{[ a, A ]};
+    key <AD09>	{[ u, U ]};
+    key <AD10>	{[ semicolon, colon ]};
+
+    key <AC01>	{[ s, S ]};
+    key <AC02>	{[ r, R ]};
+    key <AC03>	{[ t, T ]};
+    key <AC04>	{[ n, N ]};
+    key <AC05>	{[ f, F ]};
+    key <AC06>	{[ y, Y ]};
+    key <AC07>	{[ m, M ]};
+    key <AC08>	{[ o, O ]};
+    key <AC09>	{[ i, I ]};
+    key <AC10>	{[ e, E ]};
+
+    key <AB01>	{[ z, Z ]};
+    key <AB02>	{[ j, J ]};
+    key <AB03>	{[ k, K ]};
+    key <AB04>	{[ b, B ]};
+    key <AB05>	{[ q, Q ]};
+    key <AB06>	{[ w, W ]};
+    key <AB07>	{[ g, G ]};
+};
