@@ -1,14 +1,14 @@
 # srtmy
 ```
 sturdy                         srtmy
-v m l c p  x f o u j           x l d g w  q b o u ;
-s t r d y  . n a e i           s r t m y  p n a i e
-z k q g w  b h ' ; ,           z j k c v  f h . , /
+v m l c p  x f o u j           x l d g w  q b a u ;
+s t r d y  . n a e i           s r t m y  f n o i e
+z k q g w  b h ' ; ,           z j k c v  p h . , /
 Sfb:                0.870%      Sfb:                0.762%
 Dsfb:               5.996%      Dsfb:               5.705%
-Finger Speed:       21.105      Finger Speed:       18.193
-Scissors:           0.285%      Scissors:           0.315%
-Lsbs:               2.023%      Lsbs:               1.688%
+Finger Speed:       21.105      Finger Speed:       17.998
+Scissors:           0.285%      Scissors:           0.313%
+Lsbs:               2.023%      Lsbs:               2.508%
 Pinky Ring Bigrams: 1.339%      Pinky Ring Bigrams: 1.142%
 
 Inrolls:            22.84%      Inrolls:            23.07%
@@ -29,7 +29,7 @@ Total Redirects:    5.229%      Total Redirects:    6.186%
 Bad Sfbs:           0.654%      Bad Sfbs:           0.663%
 Sft:                0.012%      Sft:                0.010%
 
-Score:              -1.693      Score:              -1.537
+Score:              -1.693      Score:              -1.536
 ```
 
 Xkb file has standard , and . positions, you can change that if you want
