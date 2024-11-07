@@ -20,7 +20,7 @@ xkb_symbols "srtmy" {
     key <AC03>	{[ t, T ]};
     key <AC04>	{[ m, M ]};
     key <AC05>	{[ y, Y ]};
-    key <AC06>	{[ f, F ]};
+    key <AC06>	{[ h, H ]};
     key <AC07>	{[ n, N ]};
     key <AC08>	{[ o, O ]};
     key <AC09>	{[ i, I ]};
@@ -32,5 +32,5 @@ xkb_symbols "srtmy" {
     key <AB04>	{[ c, C ]};
     key <AB05>	{[ v, V ]};
     key <AB06>	{[ p, P ]};
-    key <AB07>	{[ h, H ]};
+    key <AB07>	{[ f, F ]};
 };
